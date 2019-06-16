@@ -9,7 +9,7 @@ import java.lang.ref.WeakReference;
  * @author big insect
  * @date 2019/6/16.
  */
-public class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
+public abstract class MvpBasePresenter<V extends MvpView> implements MvpPresenter<V> {
 
     private WeakReference<V> viewRef;
     private boolean presenterDestroyed = false;

@@ -1,13 +1,11 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
 
-
     defaultConfig {
-        applicationId "com.chrisly.mvp"
         minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
